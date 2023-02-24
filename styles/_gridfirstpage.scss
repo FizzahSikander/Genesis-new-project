@@ -1,0 +1,155 @@
+.top-grid {
+    max-width: 1110px;
+    min-height: 1960px;
+    width: 100%;
+    display: flex;
+}
+
+.grid__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    margin-top: 100px;
+    max-width: 1110px;
+    min-height: 1960px;
+}
+
+.grid__first {
+    grid-row: 1 / 8;
+    grid-column: 1 / 4;
+}
+
+.grid__second {
+    grid-row: 1 / 7;
+    grid-column: 4/7;
+}
+
+.grid__third {
+    grid-row: 1 / 11;
+    grid-column: 7/10;
+}
+
+.grid__four {
+    grid-row: 8 / 16;
+    grid-column: 1/4;
+}
+
+.grid__five {
+    grid-row: 7 / 14;
+    grid-column: 4/7;
+}
+
+.grid__six {
+    grid-row: 11 / 18;
+    grid-column: 7/10;
+}
+
+.grid__seven {
+    grid-row: 16 / 24;
+    grid-column: 1/4;
+}
+
+.grid__eight {
+    grid-row: 14 / 23;
+    grid-column: 4/7;
+}
+
+.grid__nine {
+    grid-row: 18 / 27;
+    grid-column: 7/10;
+}
+
+.grid__ten {
+    grid-row: 24 / 33;
+    grid-column: 1/4;
+}
+
+.grid__eleven {
+    grid-row: 23 / 33;
+    grid-column: 4/7;
+}
+
+.grid__twelve {
+    grid-row: 27 / 33;
+    grid-column: 7/10;
+}
+
+.pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.third__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1110px;
+    min-height: 411px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    border-top: 1px solid black;
+}
+
+.grid__awards {
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 50px;
+    max-width: 1110px;
+    min-height: 411px;
+    align-items: start;
+}
+
+.awards {
+    grid-row: 1/1;
+    grid-column: 1/2;
+}
+
+.awards__site {
+    grid-row: 1/1;
+    grid-column: 2/3;
+}
+
+.awards__ui {
+    grid-row: 1/1;
+    grid-column: 3/4;
+}
+
+.awards__date {
+    grid-row: 1/1;
+    grid-column: 4/5;
+}
+
+.awards__best {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.awards__template {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.awards__date--two {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.awards__para {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
