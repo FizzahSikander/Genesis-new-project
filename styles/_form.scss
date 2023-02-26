@@ -1,0 +1,53 @@
+form {
+    margin-left: 50px;
+    max-width: 475px;
+    width: 100%;
+    min-height: 291px;
+    padding: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+
+.button:hover,
+.input-field-first:hover,
+.textarea-first:hover {
+    background-color:burlywood;
+}
+
+
+.input-field-first,
+.textarea-first {
+    width: 100%;
+    height: 18px;
+    padding: 15px;
+    margin:15px ;
+    border: none;
+    border-bottom: 2px solid gray;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.input-field-first,
+.textarea-first {
+    width: 580px;
+}

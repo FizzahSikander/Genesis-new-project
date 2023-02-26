@@ -41,8 +41,9 @@ header {
     }
 
     &__link {
-        color:#111111;
+        color: #111111;
         text-decoration: none;
+
         &:hover {
             color: rgb(0, 195, 255);
         }
